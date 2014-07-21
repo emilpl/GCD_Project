@@ -1,6 +1,6 @@
 Code book for the GCD_Project
 
-The dataset presents average mean (sufix Mean) and standard deviation (sufix StDev) values 
+The dataset presents average of every mean (sufix Mean) and standard deviation (sufix StDev) value 
 of the accelerometer and gyroscope 3-axial raw signals acquired from 30 subjects during 6 
 different activities. 
 The average values in the table are listed for each activity of each subject. Therefore, each 
@@ -30,6 +30,8 @@ Below are listed the variable names of the average values of mean and standard d
 of the described accelerometer and gyroscope 3-D signals for each subject for each activity. 
 The first two variable names belong to activity and subject names.   
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+'angle_' denotes average of an angle value between two values named in the remaining of the 
+variable name. 
 
  activity 
  subject  
