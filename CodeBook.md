@@ -1,15 +1,35 @@
 Code book for the GCD_Project
 
-The features selected for this database are mean (denoted as Mean) and standard deviation 
-(denoted as StDev) values of the accelerometer and gyroscope 3-axial raw signals. 
-These time domain signals (prefix 'time' to denote time) were captured at a constant rate of 
-50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth 
-filter with a corner frequency of 20 Hz to remove noise. 
-The mean and standard deviation of the separated acceleration signal are also presented. 
-The acceleration signal was separated into body and gravity acceleration signals 
-(timeBodyAcc-Mean/StDev-XYZ and timeGravityAccMean-XYZ) using another low pass 
+The dataset presents average mean (sufix Mean) and standard deviation (sufix StDev) values 
+of the accelerometer and gyroscope 3-axial raw signals acquired from 30 subjects during 6 
+different activities. 
+The average values in the table are listed for each activity of each subject. Therefore, each 
+subject has average values distributed in six rows of the dataset (one row per activity). 
+
+The base time domain signals (prefix 'time' to denote time) used to calclulate mean, stdev and 
+average values were captured at a constant rate of 50 Hz. Then they were filtered using a 
+median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz 
+to remove noise. The acceleration signal was separated into body and gravity acceleration 
+signals (timeBodyAcc-Mean/StDev-XYZ and timeGravityAccMean-XYZ) using another low pass 
 Butterworth filter with a corner frequency of 0.3 Hz. 
 
+Subsequently, the body linear acceleration and angular velocity were derived in time to 
+obtain Jerk signals followed by determining their average mean and standard deviation 
+(timeBodyAccJerk-Mean/StDev-XYZ and timeBodyGyroJerk-Mean/StDev-XYZ). 
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean 
+norm (timeBodyAccMag-Mean/StDev, timeGravityAccMag-Mean/StDev, timeBodyAccJerkMag-Mean/StDev, 
+timeBodyGyroMag-Mean/StDev, timeBodyGyroJerkMag-Mean/StDev). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing 
+frequencyBodyAcc-Mean/StDev-XYZ, frequencyBodyAccJerk-Mean/StDev-XYZ, 
+frequencyBodyGyro-Mean/StDev-XYZ, frequencyBodyAccJerkMag-Mean/StDev, 
+frequencyBodyGyroMag-Mean/StDev, frequencyBodyGyroJerkMag-Mean/StDev. 
+(Note the 'frequency' to indicate frequency domain signals). 
+
+Below are listed the variable names of the average values of mean and standard deviation 
+of the described accelerometer and gyroscope 3-D signals for each subject for each activity. 
+The first two variable names belong to activity and subject names.   
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
  activity 
  subject  
