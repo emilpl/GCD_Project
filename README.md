@@ -18,7 +18,7 @@ Required submissions are:
 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
 A README.md should also be included in the repo with the scripts. This repo explains how all of the scripts work and how they are connected. 
 
-The created R script called run_analysis.R should do the following:
+The created R script called run_analysis.R does the following:
 
 1) Merge the training and the test sets to create one data set.
 2) Extract only the measurements on the mean and standard deviation for each measurement. 
@@ -26,8 +26,6 @@ The created R script called run_analysis.R should do the following:
 4) Appropriately label the data set with descriptive variable names. 
 5) Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-
-A single R script named run_analysis.R is included in this project. 
 The script begins by reading the test and training data using the read.table() command. This is followed by merging 
 the train and test data using cbind. Variable (column) names for this data were selected and copied from the features.txt file. 
 The variable names are edited so they don't include special characters. The CamelCase style is applied to enable 
