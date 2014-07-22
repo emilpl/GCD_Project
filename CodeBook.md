@@ -3,11 +3,12 @@ Code book for the GCD_Project
 The dataset presents average values of mean (sufix Mean) and standard deviation (sufix StDev) 
 values of the accelerometer and gyroscope 3-axial raw signal measurements. The measurements 
 were acquired from 30 subjects during 6 different activities. Altogether there were 10299 
-measurements (each subject had around 60 measurements per activity). The average 
-values of variables in the table are listed for each activity of each subject. Therefore, 
-each subject has average values distributed in six rows of the dataset (one row per activity).
-Altogether each measurement had 561 variables. However, this project is focused on 
-86 variables containing mean and standard deviation values of measurements. 
+measurements (each subject had around 60 measurements per activity) with 561 variables for 
+each measurement including raw and calculated values. However, this project is focused on 86 
+variables containing mean and standard deviation values of measurements. 
+The average values of the selected 86 variables in the table are listed for each activity 
+of each subject. Therefore, each subject has average values distributed in six rows of the 
+table (one row per activity).
 
 The base time domain signals (prefix 'time' to denote time) used to calclulate mean, stdev and 
 average values were captured at a constant rate of 50 Hz. Then they were filtered using a 
